@@ -1,4 +1,4 @@
-def distance(point1, Point2):
+def distance(point1, point2):
   squared_difference = 0
   for i in range(len(point1)):
     squared_difference += (point1[i] - point2[i]) ** 2
